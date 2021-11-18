@@ -1,5 +1,5 @@
 
-@media only screen and   (max-width: 1100px) {
+@media only screen and  (min-width: 350px)and (max-width: 1100px) {
     .nav-list{
       flex-direction: column;
     }
@@ -51,6 +51,53 @@
     .secondHalf img{
       display: none;
     }
+    .nav-list{
+      flex-direction: column;
+    }
+    .navbar{
+      flex-direction: column;
+    transition: all 0.7s ease-out;
+    height: 447px;
+    }
+    .rightnav{
+      text-align: center;
+    }
+    #search{
+      width: 100%;
+    }
+    .burger{
+      display: block;
+    }
+    .h-nav{
+      height: 69px;
+    }
+  .v-class{
+    opacity: 0;
+  }
+  .box-main{
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 100%;
+  }
+  .section{
+    flex-direction: column-reverse;
+  
+  }
+  .text-big{
+    text-align: center;
+  }
+  .text-small{
+    text-align: center;
+  
+  }
+  .buttons{
+    text-align: center;
+  }
+  .para{
+    padding: 0px;
+  }
   
   
   }
+
+
