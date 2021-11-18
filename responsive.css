@@ -45,7 +45,10 @@
   .para{
     padding: 0px;
   }
-  
+  .secondHalf img{
+    height: 80px;
+    width: 80px;
+  }
   }
   @media only screen and (max-width: 350px){
     .secondHalf img{
