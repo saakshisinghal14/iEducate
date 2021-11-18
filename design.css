@@ -62,7 +62,7 @@ text-align: right;
 }
 
 .background {
-  background:rgba(0, 0, 0,0.6) url(/image/bg.jpg);
+  background:rgba(0, 0, 0,0.6) url(bg.jpg);
   background-size: cover;
  background-blend-mode: darken;
 
